@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "weather-app": "^1.0.5"
   }
 }
