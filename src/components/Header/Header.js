@@ -15,7 +15,7 @@ const Header = () => {
         event.preventDefault();
         dispatch(SetCityByName(data));
         setName('');
-        history.push('/');
+        history.push('/weather');
     };
     const onChangeNameHandler = (event, callback) => {
         const {value} = event.currentTarget;
@@ -27,7 +27,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="col-md-6">
                     <p className="brand"
-                       onClick={()=>{history.push('/')}}
+                       onClick={()=>{history.push('/weather')}}
                     >Open Weather</p>
                     <form className="d-flex">
                         <input className="form-control me-2"

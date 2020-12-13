@@ -11,7 +11,7 @@ const App = () =>{
               <Header/>
               <Switch>
                   <Route
-                      path='/'
+                      path='/weather'
                       component={CitiesList}
                       exact
                   />
